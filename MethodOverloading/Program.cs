@@ -31,6 +31,8 @@
         }
         static void Main(string[] args)
         {
+            Console.WriteLine(Add(1, 2));
+            Console.WriteLine(Add(1.4m, 2.687m));
             Console.WriteLine(Add(numOne:1, numTwo:1, isCurrency: true));
         }
     }
